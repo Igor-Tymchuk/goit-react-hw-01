@@ -1,6 +1,6 @@
 import css from "./Profile.module.css"
 
-const Profile = ({name, image, tag, location, stats}) => (
+const Profile = ({ name, image, tag, location, stats }) => (
 	<div className={css.card}>
 		<div className={css.top}>
 			<img className={css.img}
